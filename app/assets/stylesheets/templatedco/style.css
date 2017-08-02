@@ -471,8 +471,9 @@
 /* Header */
 
 	#header {
-/*		background: #333333 url("../images/pic01.jpg") no-repeat; */
-		background-size: cover;
+/*		background: white url(/assets/images/pic01.jpg) no-repeat; */
+        background: #6699ff no-repeat;
+        background-size: cover;
 		color: #fff;
 		padding: 6em 0;
 		text-align: center;
@@ -575,11 +576,14 @@
 
 	#banner {
 		text-align: center;
-		padding: 4em 0 0 0;
+/*		padding: 4em 0 0 0; */
+        padding: 10 10;
+        background: white;
 	}
 
 		#banner .major h2 {
-			font-size: 3.5em;
+/*			font-size: 3.5em; */
+            font-size: 2em;            
 		}
 
 		#banner .major .byline {
