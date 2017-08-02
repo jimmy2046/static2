@@ -1,0 +1,21 @@
+<h1>StaticPages#nosidebar</h1>
+<p>Find me in app/views/static_pages/nosidebar.html.erb</p>
+
+ <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div> 
+
+select_tag "count", "<option>1</option><option>2</option><option>3</option><option>4</option>".html_safe
+# => <select id="count" name="count"><option>1</option><option>2</option>
+#    <option>3</option><option>4</option></select>
+
+select_tag "colors", "<option>Red</option><option>Green</option><option>Blue</option>".html_safe,
+multiple: true
+# => <select id="colors" multiple="multiple" name="colors[]"><option>Red</option>
+#    <option>Green</option><option>Blue</option></select>
+

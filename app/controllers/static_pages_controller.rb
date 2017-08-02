@@ -2,12 +2,12 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def left-sidebar
+  def leftsidebar
   end
 
-  def right-sidebar
+  def rightsidebar
   end
 
-  def no-sidebar
+  def nosidebar
   end
 end

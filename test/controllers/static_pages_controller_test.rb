@@ -6,18 +6,18 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get left-sidebar" do
-    get static_pages_left-sidebar_url
+  test "should get leftsidebar" do
+    get static_pages_leftsidebar_url
     assert_response :success
   end
 
-  test "should get right-sidebar" do
-    get static_pages_right-sidebar_url
+  test "should get rightsidebar" do
+    get static_pages_rightsidebar_url
     assert_response :success
   end
 
-  test "should get no-sidebar" do
-    get static_pages_no-sidebar_url
+  test "should get nosidebar" do
+    get static_pages_nosidebar_url
     assert_response :success
   end
 

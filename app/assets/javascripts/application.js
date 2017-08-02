@@ -13,3 +13,9 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+//= require scripts/init
+//= require scripts/dropotron
+//= require scripts/jquery
+//= require scripts/skel
+//= require scripts/skel-layers
