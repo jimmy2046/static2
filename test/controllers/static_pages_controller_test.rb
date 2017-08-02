@@ -2,22 +2,22 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
-    get static_pages_home_url
+    get home_path
     assert_response :success
   end
 
   test "should get leftsidebar" do
-    get static_pages_leftsidebar_url
+    get leftsidebar_path
     assert_response :success
   end
 
   test "should get rightsidebar" do
-    get static_pages_rightsidebar_url
+    get rightsidebar_path
     assert_response :success
   end
 
   test "should get nosidebar" do
-    get static_pages_nosidebar_url
+    get nosidebar_path
     assert_response :success
   end
 
